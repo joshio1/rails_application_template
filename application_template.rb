@@ -3,6 +3,11 @@ gem_group :development, :test do
   gem 'factory_bot_rails'
   gem 'capybara'
   gem 'faker'
+  gem 'annotate'
+  gem 'rubocop', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rpsec', require: false
 end
 
 initializer 'generators.rb', <<-CODE
