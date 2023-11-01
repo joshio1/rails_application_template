@@ -4,9 +4,9 @@ gem_group :development, :test do
   gem 'capybara'
   gem 'faker'
   gem 'annotate'
-  gem 'rubocop', require: false
-  gem 'rubocop-rails', require: false
-  gem 'rubocop-rspec', require: false
+  gem 'rubocop'
+  gem 'rubocop-rails'
+  gem 'rubocop-rspec'
 end
 
 initializer 'generators.rb', <<-CODE
