@@ -7,7 +7,7 @@ gem_group :development, :test do
   gem 'rubocop', require: false
   gem 'rubocop-rails', require: false
   gem 'rubocop-performance', require: false
-  gem 'rubocop-rpsec', require: false
+  gem 'rubocop-rspec', require: false
 end
 
 initializer 'generators.rb', <<-CODE
